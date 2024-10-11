@@ -1,0 +1,128 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family : sans-serif;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   flex-direction: column;
+}
+
+.container{
+width: 330px;
+height: min-content;
+background-color: white;
+border-radius: 12px;
+padding: 28px;
+box-shadow: 0 0 20px rgba(13, 240, 134, 0.6), 0 0 40px rgba(12, 232, 144, 0.61);
+border: 10px solid #00ff99;
+}
+
+
+.founder{
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.diwali-img{
+    height: 100px;
+    width: 100px;
+}
+
+.founder-ceo{
+    width: 330px;
+    height: min-content;
+    background-color: white;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 0 50px 18px rgb(117, 7, 115);
+    margin-top: 20px;
+
+}
+.text-image{
+    display: flex;
+}
+
+.diwali-text{
+    color: rgb(225, 205, 23);
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.contact-support{
+    width: 330px;
+    height: min-content;
+    background-color: white;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 0 50px 18px rgb(117, 7, 115);
+    margin-top: 20px;   
+}
+.email{
+    margin-top: 10px;
+}
+
+
+.category{
+    display:inline-flex;
+    justify-content: space-evenly;
+    justify-items: end;
+    align-items: end;
+}
+
+
+.grocery{
+    width: 130px;
+height: min-content;
+background-color: white;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 0 30px 10px rgb(130, 228, 228);
+margin-right: 10px;
+justify-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.grocery  :hover{
+    background-color: blue;
+}
+
+
+.food-drink{
+    width: 130px;
+height: min-content;
+background-color: yellow;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 0 30px 10px aqua;
+justify-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+
+.grocery-text{
+    color: aqua;
+margin-right: 20px;
+}
+
+.food-text{
+    color: aqua;
+}
+
+
+
